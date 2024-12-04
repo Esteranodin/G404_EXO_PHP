@@ -18,17 +18,15 @@ if ($isEasy === true) {
 } else {
     echo "C'est difficile !!!";
 }
+
+
 ?> -->
 
 <!-- ---------- EXO 2_bis ---------- -->
 <!-- <?php
 $isEasy = false;
 
-if ($isEasy !== false) {
-    echo "C'est facile !!";
-} else {
-    echo "C'est difficile !!!";
-}
+echo $isEasy ? "C'est facile !!" : "C'est difficile !!!";
 ?> -->
 
 <!-- ---------- EXO 3 ---------- -->
