@@ -32,19 +32,21 @@ $departements = array (2 =>"Aisne", 59 =>"Nord", 60 =>"Oise", 62 =>"Pas-de-Calai
 
 // <!-- ---------- EXO 8 ---------- -->
 
-// foreach ($months as $value) {
-//    echo $value . "<br>";
+// foreach ($months as $month) {
+//    echo $month . "<br>";
 // }
 
 // <!-- ---------- EXO 9 ---------- -->
 
-// foreach ($departements as $value) {
-//     echo $value . "<br>";
+// foreach ($departements as $departement) {
+//     echo $departement . "<br>";
 // }
 
 // <!-- ---------- EXO 10 ---------- -->
 
-// foreach ($departements as $key => $value) {
-//     echo "Le département {$value} a le numéro {$key} <br>";
+// foreach ($departements as $codeDep => $departement) {
+//     echo "Le département {$departement} a le numéro {$codeDep} <br>";
 // }
 ?>
+
+<!-- codeDep = key et department = value -->

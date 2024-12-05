@@ -95,9 +95,11 @@ echo boomer ("licorne", 33);
 <!-- ---------- EXO 8 ---------- -->
 <!-- <?php
 
-function somme (int $number1, int $number2, int $number3){
+function somme (int $number1 = 2, int $number2 = 17, int $number3 = 10){
     return $number1 + $number2 + $number3;
 }
 
 echo somme (1, 18, 1);
 ?> -->
+
+// valeur par défaut quand on appelle sans arguments VS les arguments remplacent la valeur par défaut s'il sont présents
